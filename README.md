@@ -11,11 +11,12 @@
 答案就是今天要说的这个： 直接用浏览器实时查看输出的log信息
 
 # 二、 原理
-就是在app里面内置一个http server服务器，浏览器作为请求客户端，将app的操作日志实时的输出到浏览器中。
+就是在app里面内置一个http server服务器，
+浏览器作为请求客户端，将app的操作日志实时的输出到浏览器中。
 
 # 三、 实现
-使用了一个开源框架 GCDWebServer 作为http server
-具体实现见github项目地址
+使用了一个开源框架 GCDWebServer 作为http server  
+具体实现见项目代码
 
 # 四、 使用
 1、将手机置于电脑的同一网络，
@@ -27,4 +28,4 @@
 
 # 五、 效果图
 
-{% asset_img ioslog.jpg %}
+https://github.com/tunsuy/TSiOSLogWebBrowser/blob/master/ioslog.jpg
