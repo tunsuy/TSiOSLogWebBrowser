@@ -7,11 +7,11 @@
 
 虽然开发也有将日志写入文件，但是每次操作完了再去打开文件查看，非常不方便
 
-那有没有一种类似xcode输出日志的方式呢
+那有没有一种类似xcode输出日志的方式呢  
 答案就是今天要说的这个： 直接用浏览器实时查看输出的log信息
 
 # 二、 原理
-就是在app里面内置一个http server服务器，
+就是在app里面内置一个http server服务器，  
 浏览器作为请求客户端，将app的操作日志实时的输出到浏览器中。
 
 # 三、 实现
@@ -21,11 +21,11 @@
 # 四、 使用
 1、将手机置于电脑的同一网络，
 
-2、然后在浏览器上输入 手机IP：port（端口是在代码中任意指定的），
+2、然后在浏览器上输入 手机IP：port（端口是在代码中任意指定的），  
 然后就可以开始测试app了，你将会看到浏览器中会实时显示你的操作日志出来，跟xcode下查看日志的方式一样，
 
 注：浏览器页面支持 跟随日志自动滚动 ；非常方便
 
 # 五、 效果图
 
-https://github.com/tunsuy/TSiOSLogWebBrowser/blob/master/ioslog.jpg
+![image](https://github.com/tunsuy/TSiOSLogWebBrowser/blob/master/ioslog.jpg) 
